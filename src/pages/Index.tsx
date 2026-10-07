@@ -611,14 +611,12 @@ function Index() {
         <DialogContent className='object-dialog'>
           <DialogHeader>
             <DialogTitle>
-              {modal === 'objects'
-                ? 'Объекты Reskript'
-                : 'Закрытый Telegram-канал'}
+              {modal === 'objects' ? 'Объекты Reskript' : 'WhatsApp'}
             </DialogTitle>
             <DialogDescription>
               {modal === 'objects'
-                ? 'Объекты и условия, представленные в макете.'
-                : 'Ссылка на канал пока не добавлена.'}
+                ? 'Объекты и условия, после звонка.'
+                : '+995591006124'}
             </DialogDescription>
           </DialogHeader>
           {modal === 'objects' ? (
@@ -657,8 +655,14 @@ function Index() {
             <div className='telegram-dialog'>
               <MessageCircle />
               <p>
-                Контакт представителя Reskript появится здесь после добавления
-                официальной ссылки на канал.
+                Контакт представителя{' '}
+                <a
+                  href='https://t.me/+995591006124'
+                  target='_blank'
+                  rel='noreferrer'
+                >
+                  +995 591 006 124
+                </a>
               </p>
             </div>
           )}
