@@ -657,7 +657,7 @@ function Index() {
               <p>
                 Контакт представителя{' '}
                 <a
-                  href='https://t.me/+995591006124'
+                  href='https://wa.me/995591006124'
                   target='_blank'
                   rel='noreferrer'
                 >
