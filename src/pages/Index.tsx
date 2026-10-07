@@ -598,7 +598,7 @@ function Index() {
         </div>
         <div className='wrap footer-bottom'>
           <span>© Reskript</span>
-          <span>Информация из макета. Условия и риски требуют проверки.</span>
+          <span>Нотариальные сделки заключаем удаленно</span>
         </div>
       </footer>
 
