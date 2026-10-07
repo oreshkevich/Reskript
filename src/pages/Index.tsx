@@ -84,7 +84,7 @@ function Index() {
   const calculate = (event: React.FormEvent) => {
     event.preventDefault();
     const value = Number(amount.replace(/\s/g, ''));
-    if (!Number.isFinite(value) || value < 15000 || value > 1000000) {
+    if (!Number.isFinite(value) || value < 5000 || value > 1500000) {
       setError('Введите сумму от $5 000 до $1 500 000');
       return;
     }
@@ -450,18 +450,18 @@ function Index() {
             <h3>ПРИМЕР РЕЗУЛЬТАТА:</h3>
             <div>
               <span>6 мес.</span>
-              <strong>+{money(calculatedAmount * 0.2)}</strong>
-              <small>(40%)</small>
+              <strong>+{money(calculatedAmount * 0.09)}</strong>
+              <small>(18%)</small>
             </div>
             <div>
               <span>12 мес.</span>
-              <strong>+{money(calculatedAmount * 0.4)}</strong>
-              <small>(40%)</small>
+              <strong>+{money(calculatedAmount * 0.36)}</strong>
+              <small>(36%)</small>
             </div>
             <div>
               <span>Досрочно (3 мес.)</span>
-              <strong>+{money(calculatedAmount * 0.2)}</strong>
-              <small>(80%)</small>
+              <strong>+{money(calculatedAmount * 0.18)}</strong>
+              <small>(72%)</small>
             </div>
             <p>
               Иллюстративный расчёт. Проценты — годовые,
