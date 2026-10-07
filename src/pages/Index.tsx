@@ -105,7 +105,7 @@ function Index() {
         />
         <div className='hero-shade' />
         <header className='header wrap'>
-          <a href='#' className='brand' aria-label='Georgia Invest — главная'>
+          <a href='#' className='brand' aria-label='Reskript — главная'>
             <svg
               className='mark'
               viewBox='0 0 100 110'
