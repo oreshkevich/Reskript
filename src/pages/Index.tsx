@@ -450,7 +450,7 @@ function Index() {
             <h3>ПРИМЕР РЕЗУЛЬТАТА:</h3>
             <div>
               <span>6 мес.</span>
-              <strong>+{money(calculatedAmount * 0.09)}</strong>
+              <strong>+{money(calculatedAmount * 0.18)}</strong>
               <small>(18%)</small>
             </div>
             <div>
@@ -575,7 +575,8 @@ function Index() {
               <br />
               Работаем и с 2012 г Юридическое и информационное сопровождение
               инвестиций в грузинскую недвижимость. Открытие банковских счетов
-              Помогаем получить ВНЖ
+              <br />
+              <b>Помогаем получить ВНЖ</b>
             </p>
           </div>
           <Button
