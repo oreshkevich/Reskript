@@ -182,11 +182,6 @@ function Index() {
             </div>
             <div className='hero-date'>
               <CalendarDays />
-              <span>
-                СЕНТЯБРЬ
-                <br />
-                <b>2025</b>
-              </span>
             </div>
           </div>
           <Button
